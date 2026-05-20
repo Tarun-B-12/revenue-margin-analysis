@@ -1,5 +1,9 @@
 # Revenue Leakage + Margin Analysis
 
+## Live Dashboard
+View the interactive dashboard here:
+https://revenue-margin-analysis-5ezuzkemmwudfqe6to9hsn.streamlit.app/
+
 ## One-Line Summary
 End-to-end margin analysis identifying revenue leakage across products, categories, and customer segments using Python, SQL, and Tableau.
 
