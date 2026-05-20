@@ -1,5 +1,4 @@
-
-markdown# Revenue Leakage + Margin Analysis
+# Revenue Leakage + Margin Analysis
 
 ## One-Line Summary
 End-to-end margin analysis identifying revenue leakage across products, categories, and customer segments using Python, SQL, and Tableau.
