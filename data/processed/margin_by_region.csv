@@ -1,0 +1,5 @@
+Region,transactions,total_revenue,total_profit,margin_pct,loss_transactions,avg_discount_pct
+Central,2323,501239.89,39706.36,7.92,741.0,24.04
+South,1620,391721.91,46749.43,11.93,259.0,14.73
+East,2848,678781.24,91522.78,13.48,553.0,14.54
+West,3203,725457.82,108418.45,14.94,318.0,10.93
