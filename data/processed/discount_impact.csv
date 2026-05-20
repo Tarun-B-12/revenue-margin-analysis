@@ -1,0 +1,7 @@
+discount_bucket,transactions,total_revenue,total_profit,margin_pct
+Over 50% Discount,856,64228.74,-76559.05,-119.2
+31-50% Discount,310,195314.76,-48447.73,-24.8
+21-30% Discount,227,103226.65,-10369.28,-10.05
+11-20% Discount,3709,792152.89,91756.3,11.58
+1-10% Discount,94,54369.35,9029.18,16.61
+0% - No Discount,4798,1087908.47,320987.6,29.51
