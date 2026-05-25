@@ -57,7 +57,26 @@ This project analyzes 9,994 retail transactions to identify exactly where margin
 | Discount Amount | Total dollar value of discounts given | Cost of discounting |
 
 ## Project Architecture
-Raw CSV Data → Python Cleaning and Feature Engineering → DuckDB SQL Analysis → Processed CSV Files → Streamlit and Plotly Interactive Dashboard → Deployed on Streamlit Cloud
+
+```mermaid
+flowchart TD
+    A[Sample Superstore Dataset\n9994 transactions CSV] --> B[Python Cleaning\npandas feature engineering\nmargin, discount flags, cost]
+    B --> C[DuckDB SQL Analysis\n8 business queries]
+    C --> D[Margin Analysis\nleakage by discount tier]
+    C --> E[Category Analysis\nFurniture vs Technology vs Office]
+    C --> F[Regional Analysis\nCentral vs West vs East vs South]
+    D --> G[Streamlit Dashboard\ndeployed on Streamlit Cloud]
+    E --> G
+    F --> G
+
+    style A fill:#E6F1FB,stroke:#378ADD,color:#0C447C
+    style B fill:#EAF3DE,stroke:#639922,color:#27500A
+    style C fill:#FAEEDA,stroke:#BA7517,color:#633806
+    style D fill:#EEEDFE,stroke:#7F77DD,color:#3C3489
+    style E fill:#EEEDFE,stroke:#7F77DD,color:#3C3489
+    style F fill:#EEEDFE,stroke:#7F77DD,color:#3C3489
+    style G fill:#E1F5EE,stroke:#1D9E75,color:#085041
+```
 
 ## Data Cleaning and Validation
 - Converted Order Date and Ship Date from string to datetime format
